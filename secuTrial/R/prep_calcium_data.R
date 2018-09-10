@@ -1,8 +1,8 @@
 
 ## calcium dataset
-library("lava")
+library("lava") # v.1.6.3
 ## mapvalues()
-library("plyr")
+library("plyr") # v.1.8.4
 
 ## todate
 ## makes a date of the input

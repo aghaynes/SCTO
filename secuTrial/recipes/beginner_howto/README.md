@@ -6,6 +6,10 @@ The following topics are covered by this documentation:
 
 - [Introduction](#intro)
 - [CustomerAdminTool](#customeradmin)
+- [AdminTool](#admin)
+- [FormBuilder](#formbuilder)
+- [DataCapture](#datacapture)
+- [ExportSearchTool](#exportsearch)
 
 <a name="intro" />
 
@@ -42,6 +46,9 @@ you can initialize sub-admin accounts for the different customer areas.
 These accounts allow you to access the AdminTool. Until you are more
 familiar with secuTrial you will probably not be using the CutomerAdminTool.
 
+
+<a name="admin" />
+
 # AdminTool
 
 Here you can register projects/trials and create accounts for yourself
@@ -62,6 +69,8 @@ Finally, under Centres (bottom of the page) you specify the project, centre and
 role for the new participant. ”Save and back” and inform the new participant that the
 account is active. If the centre does not yet exist it needs to be created. The same is
 true for the role.
+
+<a name="formbuilder" />
 
 # FormBuilder
 
@@ -91,6 +100,8 @@ Reason e.g. specify changes if a change request was made
 7. Cancel to return → study should appear red
 8. Wait over night
 
+<a name="datacapture" />
+
 # DataCapture
 
 This module allows filling the forms that were created in the FormBuilder with specific
@@ -116,6 +127,7 @@ In most cases data will be manually entered into the eCRF. However, in some case
 batch data needs to be imported. Data imports must be specified in the FormBuilder
 for each form family with ”Edit import formats”.
 
+<a name="exportsearch" />
 
 # ExportSearchTool
 

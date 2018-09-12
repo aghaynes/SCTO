@@ -88,18 +88,6 @@ staff). To do this you can click ”Download dossier” in the FormBuilder. This
 you with a zip archive. Open this archive and display content.html (in pages) in a web
 browser. In the web browser display click ”Print” (top right) and ”Print to File”.
 
-#### Enabling productive mode for an eCRF
-
-1. FormBuilder (select customer area)
-2. Select (green) version of your database and click Release
-3. Validate
-4. Version e.g. ‘1.0.0’ if very first release and
-Reason e.g. specify changes if a change request was made
-5. Release
-6. Confirm release
-7. Cancel to return → study should appear red
-8. Wait over night
-
 <a name="datacapture" />
 
 # DataCapture

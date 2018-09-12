@@ -23,6 +23,8 @@ expected_round <- function(num, digits=1) {
 data(calcium)
 calcium_st <- calcium
 
+## alternatively you can load the dataset from calcium_dataset.csv
+
 ## visit dates
 calcium_st$ctime <- todate(calcium_st$ctime)
 calcium_st$ctime <- format(calcium_st$ctime, "%d.%m.%Y")

@@ -2,9 +2,10 @@
 
 1. FormBuilder (select customer area)
 2. Select (green) version of your database and click "Release"
-3. "Vers. label" e.g. ‘1.0.0’ if very first release and "Reason for release" e.g. specify changes if a change request was made
-4. "Validate"
-5. "Release"
-6. "Confirm release"
-7. "Cancel" to return → study should appear red
-8. Wait over night
+3. "Vers. label" e.g. ‘1.0.0’ if very first release
+4. "Reason for release" e.g. specify changes if a change request was made
+5. "Validate"
+6. "Release"
+7. "Confirm release"
+8. "Cancel" to return → study should appear red
+9. Wait over night

@@ -4,9 +4,9 @@ Title: Handling of secuTrial related data
 Version: 0.1.1
 Authors@R: c(person("Pascal", "Benkert", email = "pascal.benkert@usb.ch", role = c("aut", "cre")), 
              person("Constantin", "Sluka", email = "constantin.sluka@usb.ch", role = c("ctb")), 
-             person("Patrick R.", "Wright", email = "patrick.wrigth@usb.ch", role = c("ctb")), 
+             person("Patrick R.", "Wright", email = "patrick.wright@usb.ch", role = c("ctb")), 
              person("Michael", "Scharfe", role = c("ctb")))
-Maintainer: The package maintainer <patrick.wrigth@usb.ch>
+Maintainer: The package maintainer <patrick.wright@usb.ch>
 Description: This R package provides functions for handling data from the clinical data 
     management system secuTrial.
 Depends:

@@ -20,3 +20,8 @@ In the FormBuilder:
 6. "New import format"
 7. configure your import format according to the example below
 
+![impformat](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/recipes/import_data/fig/import_format.png "impformat")
+
+Note: In this example we are not setting up "mapping entries". If you have coded data you are importing you will need to explicitly map the coding to the secuTrial values. Alternatively you can decode your data before importing it.
+
+

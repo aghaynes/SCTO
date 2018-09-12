@@ -13,3 +13,10 @@ In the FormBuilder:
 2. "New import configuration"
 3. configure your import according to the example below
 
+![confimp](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/recipes/import_data/fig/config_import.png "confimp")
+
+4. select the form for which you would like to perfom an import
+5. select "Edit import formats"
+6. "New import format"
+7. configure your import format according to the example below
+

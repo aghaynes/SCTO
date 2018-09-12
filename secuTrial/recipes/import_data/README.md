@@ -2,7 +2,7 @@
 
 In most cases data will be manually entered into the eCRF. However, in some cases
 batch data needs to be imported. Data imports are specified in the FormBuilder.
-This recipe specifies one way to set up data import into secuTrial. Other set ups
+This recipe outlines one way to set up a data import into secuTrial. Other set ups
 are also possible.
 
 Note: It is strongly suggested to perform data imports with extreme caution. Any data already entered for a specific patient and visit combination explicitly and differently specified by the import file will be overwritten and lost. Hence, empty fields and columns in the import file can cause deletion of previously entered data.
@@ -20,6 +20,7 @@ An importable example project is available [here](https://github.com/PatrickRWri
 5. select "Edit import formats"
 6. "New import format"
 7. configure your import format according to the example below
+<br>
 
 ![impformat](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/recipes/import_data/fig/import_format.png "impformat")
 
@@ -29,11 +30,11 @@ Note: In this example we are not setting up "mapping entries". If you have coded
 
 In order to import data you need to transfer it into a format that is compatible with how you have configured your import routines in secuTrial. For the bone mineral density (bmd) example a short segement of code that prepares the data for import into secuTrial is available [here](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/R/demo/secuTrial_lib_loading_demo.R#L2-L52).
 
-Note: In the header of the produced csv file the data to be entered into the form is labelled with "bmd.". This marker refers to the "bmd" specified in in the import format of the form (i.e. point 7 further up in this text).
+Note: In the header of the produced file (calcium_secuTrial.csv) the data to be entered into the form is labelled with "bmd.". This marker refers to the "bmd" specified in in the import format of the form (i.e. point 7 further up in this text).
 
 ### Importing your data in the DataCapture
 
-Note: Large imports may crash you system depending on the amount of resources you have allocated.
+Note: Large imports may crash your system depending on the amount of resources you have allocated. Import files can be chunked into smaller files and uploaded bit by bit. Every file needs the same header.
 
 1. select "Import" on the top right
 2. select "Form data for multiple forms"

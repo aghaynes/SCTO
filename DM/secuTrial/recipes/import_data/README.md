@@ -14,7 +14,7 @@ An importable example project is available [here](https://github.com/PatrickRWri
 2. "New import configuration"
 3. configure your import according to the example below
 
-![confimp](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/import_data/fig/config_import.png "confimp")
+![confimp](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/import_data/fig/config_import.png "confimp")
 
 4. select the form for which you would like to perfom an import
 5. select "Edit import formats"
@@ -22,7 +22,7 @@ An importable example project is available [here](https://github.com/PatrickRWri
 7. configure your import format according to the example below
 <br>
 
-![impformat](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/import_data/fig/import_format.png "impformat")
+![impformat](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/import_data/fig/import_format.png "impformat")
 
 Note: In this example we are not setting up "mapping entries". If you have coded data you are importing you will need to explicitly map the coding to the secuTrial values. Alternatively you can decode your data before importing it.
 

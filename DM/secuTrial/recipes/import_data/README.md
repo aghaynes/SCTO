@@ -7,14 +7,14 @@ are also possible.
 
 Note: It is strongly suggested to perform data imports with extreme caution. Any data already entered for a specific patient and visit combination explicitly and differently specified by the import file will be overwritten and lost. Hence, empty fields and columns in the import file can cause deletion of previously entered data.
 
-An importable example project is available [here](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/data/proj_DEM00_Dev_20180910-1701_BONE_MINERAL_DENSITY.zip).
+An importable example project is available [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/s_export_CSV-xls_DEM00_20180912-125720.zip).
 
 ### Configuring the import in the FormBuilder
 1. select "Edit import configurations"
 2. "New import configuration"
 3. configure your import according to the example below
 
-![confimp](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/recipes/import_data/fig/config_import.png "confimp")
+![confimp](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/import_data/fig/config_import.png "confimp")
 
 4. select the form for which you would like to perfom an import
 5. select "Edit import formats"
@@ -22,13 +22,13 @@ An importable example project is available [here](https://github.com/PatrickRWri
 7. configure your import format according to the example below
 <br>
 
-![impformat](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/recipes/import_data/fig/import_format.png "impformat")
+![impformat](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/import_data/fig/import_format.png "impformat")
 
 Note: In this example we are not setting up "mapping entries". If you have coded data you are importing you will need to explicitly map the coding to the secuTrial values. Alternatively you can decode your data before importing it.
 
 ### Data praparation in R
 
-In order to import data you need to transfer it into a format that is compatible with how you have configured your import routines in secuTrial. For the bone mineral density (bmd) example a short segement of code that prepares the data for import into secuTrial is available [here](https://github.com/PatrickRWright/SCTO/blob/master/secuTrial/R/demo/secuTrial_lib_loading_demo.R#L2-L52).
+In order to import data you need to transfer it into a format that is compatible with how you have configured your import routines in secuTrial. For the bone mineral density (bmd) example a short segement of code that prepares the data for import into secuTrial is available [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/R/demo/secuTrial_lib_loading_demo.R#L2-L52).
 
 Note: In the header of the produced file (calcium_secuTrial.csv) the data to be entered into the form is labelled with "bmd.". This marker refers to the "bmd" specified in in the import format of the form (i.e. point 7 further up in this text).
 

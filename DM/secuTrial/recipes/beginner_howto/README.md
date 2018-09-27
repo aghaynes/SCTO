@@ -81,13 +81,6 @@ Forms are made up of questions which are made up of items (Form → Question →
 Item). Visit plans are a collection of forms that need to be filled over the course of the
 clinical trial. Data entry is possible in the DataCapture module.
 
-####  Providing a pdf of the CRF
-
-In some cases you may be asked to supply the CRF (for instance by the regulatory
-staff). To do this you can click ”Download dossier” in the FormBuilder. This will supply
-you with a zip archive. Open this archive and display content.html (in pages) in a web
-browser. In the web browser display click ”Print” (top right) and ”Print to File”.
-
 <a name="datacapture" />
 
 # DataCapture

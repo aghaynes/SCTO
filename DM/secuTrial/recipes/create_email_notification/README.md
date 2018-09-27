@@ -9,6 +9,8 @@ To setup an email notification:
 4. Set trigger (e.g. "New patient")
 5. Specify further contents of email to you preferences
 
+![newpatmail](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/create_email_notification/fig/new_pat_email.png)
+
 Emails for specific forms (e.g. SAE form) can be setup within the form.
 1. FormBuilder -> navigate to the form
 2. Click "New Message"
@@ -16,5 +18,5 @@ Emails for specific forms (e.g. SAE form) can be setup within the form.
 4. Set Triggering form status (e.g. "partly filled", "completely filled")
 5. Execution "only once"
 
-
+![saemail](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/create_email_notification/fig/sae_email.png)
 

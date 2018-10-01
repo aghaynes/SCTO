@@ -12,6 +12,6 @@ Basic recipes:
 
 Advanced recipes:
 
-- [Data import](https://github.com/PatrickRWright/SCTO/tree/master/secuTrial/recipes/import_data)
+- [Data import](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/import_data)
 - [Complex scores](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/score_calculation_advanced)
 - [Decode display variables](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/decode_display_variables)

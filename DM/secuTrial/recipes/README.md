@@ -4,8 +4,8 @@ This repository is intended to supply step-by-step recipes for common tasks in s
 
 Basic recipes:
 
-- [Beginners guide](https://github.com/PatrickRWright/SCTO/tree/master/secuTrial/recipes/beginner_howto)
-- [Enabling productive mode](https://github.com/PatrickRWright/SCTO/tree/master/secuTrial/recipes/enable_productive_mode)
+- [Beginners guide](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/beginner_howto)
+- [Enabling productive mode](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/enable_productive_mode)
 - [Score calculation](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/score_calculation)
 - [Create user logins](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/create_user_logins)
 - [Create email notifications](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/create_email_notification)

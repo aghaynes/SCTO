@@ -7,10 +7,12 @@ If you would like to contribute a recipe then please name it by the two or three
 Basic recipes:
 
 - [Beginners guide](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/beginner_howto)
+- Setup new eCRF - TODO
 - [Enabling productive mode](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/enable_productive_mode)
 - [Score calculation](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/score_calculation)
 - [Create user logins](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/create_user_logins)
 - [Create email notifications](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/create_email_notification)
+- [Upload catalog](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/upload_catalog)
 
 Advanced recipes:
 

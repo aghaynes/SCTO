@@ -9,6 +9,6 @@ Certain input data may already be available in a standardized form. In these cas
 5. Select encoding (e.g. UTF-8) and "Upload"
 6. In the following window check entries and make adjustments to the text if needed.
 
-
+![editcatalog](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/upload_catalog/fig/edit_catalog.png)
 
 

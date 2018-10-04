@@ -17,7 +17,12 @@ Include catalog in eCRF:
 2. Type is IASCatalogGroup
 3. Select your newly uploaded catalog (e.g. med_catalog) and "Save"
 
+![iascataloggroup](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/upload_catalog/fig/iascataloggroup.png)
+
 4. In the CatalogGroup create new items for your catalog entries (e.g. product and family). See below screenshot for family.
+
+![catalogfield](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/upload_catalog/fig/catalogfield.png)
 
 5. In DataCapture, your eCRF should now show the following. You can click "Catalog" and a pop-up opens where a selection can be made.
 
+![opencatalog](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/upload_catalog/fig/opencatalog.png)

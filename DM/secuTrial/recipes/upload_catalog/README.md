@@ -2,8 +2,13 @@
 
 Certain input data may already be available in a standardized form. In these cases a secuTrail catalog can be created to aid  in standardization of data entry. Examples where such catalogs are used are adresses or medicines. A small example catalog of medical products can be found [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/med_catalog.csv).
 
-1. 
-2. 
-3. 
+1. FormBuilder Welcome page
+2. Click "Catalogue list"
+3. Click "Create new catalogue"
+4. "Browse..." (e.g. [med_catalog.csv](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/med_catalog.csv))
+5. Select encoding (e.g. UTF-8) and "Upload"
+6. In the following window check entries and make adjustments to the text if needed.
+
+
 
 

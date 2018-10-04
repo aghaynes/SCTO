@@ -2,7 +2,7 @@
 
 Certain input data may already be available in a standardized form. In these cases a secuTrail catalog can be created to aid  in standardization of data entry. Examples where such catalogs are used are adresses or medicines. A small example catalog of medical products can be found [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/med_catalog.csv).
 
-Upload catalog:
+#### Upload catalog:
 1. FormBuilder Welcome page
 2. Click "Catalogue list"
 3. Click "Create new catalogue"
@@ -12,7 +12,7 @@ Upload catalog:
 
 ![editcatalog](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/upload_catalog/fig/edit_catalog.png)
 
-Include catalog in eCRF:
+#### Include catalog in eCRF:
 1. Within a Form in the FormBuilder create "New question"
 2. Type is IASCatalogGroup
 3. Select your newly uploaded catalog (e.g. med_catalog) and "Save"

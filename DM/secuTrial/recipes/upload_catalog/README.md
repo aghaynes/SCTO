@@ -1,6 +1,6 @@
 # secuTrial catalog upload 
 
-Certain input data may already be available in a standardized form. In these cases a secuTrail catalog can be created to aid  in standardization of data entry. Examples where such catalogs are used are adresses or medicines. A small example catalog of medical products can be found [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/med_catalog.csv).
+Certain input data may already be available in a standardized form. In these cases a secuTrail catalog can be created to aid  in standardization of data entry. Examples where such catalogs are used are adresses or medicines. A small example catalog of medical products can be found [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/med_catalog.csv). A catalog of Swiss addresses can be found [here](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/data/plz_catalog_ch.csv).
 
 #### Upload catalog:
 1. FormBuilder Welcome page
@@ -26,3 +26,5 @@ Certain input data may already be available in a standardized form. In these cas
 5. In DataCapture, your eCRF should now show the following. You can click "Catalog" and a pop-up opens where a selection can be made.
 
 ![opencatalog](https://github.com/PatrickRWright/SCTO/blob/master/DM/secuTrial/recipes/upload_catalog/fig/opencatalog.png)
+
+#### TODO: Update catalog

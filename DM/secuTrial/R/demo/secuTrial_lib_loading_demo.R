@@ -87,7 +87,7 @@ write.table(calcium_st, "calcium_secuTrial.csv", row.names=F, quote=F, sep=";")
 library(secuTrial)
 
 ## data
-load.tables("~/SCTO/secuTrial/R/demo/s_export_CSV-xls_DEM00_20180912-125720.zip")
+load.tables(system.file("extdata", "s_export_CSV-xls_DEM00_20180912-125720.zip", package = "secuTrial"))
 
 ### (3)
 ##  compare source data (calcium_st) and secuTrial export (bmd)

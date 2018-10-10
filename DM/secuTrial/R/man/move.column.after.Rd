@@ -11,19 +11,30 @@ move.column.after(df, col.name, col.name.after)
 
 \item{col.name}{column name or vector of column names to move}
 
-\item{col.name.after}{column name after which to place \code{col.name} ("first" to place at beginning)}
+\item{col.name.after}{column name behind which to place \code{col.name} ("first" to place at beginning)}
 }
 \value{
-Data frame with shuffled columns.
+Data frame with rearranged columns.
 }
 \description{
-This function moves a given column or a vector of columns (defined by column name(s))
-after a specific position in the data frame (defined by column name).
+This function moves a given column or a vector of columns
+behind a specific position in the data frame.
+Columns are specified by their names.
 }
 \examples{
-move.column.after(data.frame(a=NA, b=NA, c=NA, d=NA),c("c","d"),"a")
-##   a  c  d  b
-##1 NA NA NA NA
+## create a dataframe
+a_dataframe <- data.frame(a=c(1,0),b=c(2,0),c=c(3,0),d=c(4,0))
+a_dataframe
+##   a b c d
+## 1 1 2 3 4
+## 2 0 0 0 0
+
+## move columns c and d behind column a
+move.column.after(df=a_dataframe,col.name=c("c","d"),col.name.after="a")
+##   a c d b
+## 1 1 3 4 2
+## 2 0 0 0 0
+
 }
 \seealso{
 move.column.to.pos

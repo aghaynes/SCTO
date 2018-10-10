@@ -14,16 +14,26 @@ move.column.to.pos(df, col.idx, new.col.idx)
 \item{new.col.idx}{new column index}
 }
 \value{
-Data frame with shuffled columns.
+Data frame with rearranged columns.
 }
 \description{
 This function moves a given column (defined by the column index)
 to a specific position in the data frame.
 }
 \examples{
-move.column.to.pos(data.frame(a=NA, b=NA, c=NA),1,3)
-##   b  c  a
-##1 NA NA NA
+## create a dataframe
+a_dataframe <- data.frame(a=c(1,0),b=c(2,0),c=c(3,0),d=c(4,0))
+a_dataframe
+##   a b c d
+## 1 1 2 3 4
+## 2 0 0 0 0
+
+## move column 1 to column 3
+move.column.to.pos(df=a_dataframe,col.idx=1,new.col.idx=3)
+##   b c a d
+## 1 2 3 1 4
+## 2 0 0 0 0
+
 }
 \seealso{
 move.column.after

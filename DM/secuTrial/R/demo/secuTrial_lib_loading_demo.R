@@ -129,5 +129,22 @@ table(rev(calcium_st_compare$bmd.grouping)==bmd_compare$grouping)
 # FALSE  TRUE
 # 268   233
 
+### (4)
+## moving columns
+names(calcium_st_compare)
+# "patid"        "visitdate"    "bmd.age"      "bmd.grouping" "bmd.bmd"
+
+## position "bmd.grouping" and "bmd.bmd" behind "visitdate" with "move.column.after"
+calcium_st_compare_mv1 <- move.column.after(df=calcium_st_compare,col.name=c("bmd.grouping","bmd.bmd"),"visitdate")
+names(calcium_st_compare_mv1)
+# "patid"        "visitdate"    "bmd.grouping" "bmd.bmd"      "bmd.age"
+
+## position "bmd.age" back to position 3 with "move.column.to.pos"
+calcium_st_compare_mv2 <- move.column.to.pos(df=calcium_st_compare_mv1,col.idx=5,new.col.idx=3)
+names(calcium_st_compare_mv2)
+# "patid"        "visitdate"    "bmd.age"      "bmd.grouping" "bmd.bmd"
+
+
+
 
 

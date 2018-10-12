@@ -145,6 +145,51 @@ names(calcium_st_compare_mv2)
 # "patid"        "visitdate"    "bmd.age"      "bmd.grouping" "bmd.bmd"
 
 
+### (5)
+## translating ids
+mnppid2mnpaid(1512)
+# 104
+mnpaid2mnppid(104)
+# 1512
+
+## stripping center tags
+remove.center.tag("Universitätsspital Basel (SWISS-AF)")
+# "Universitätsspital Basel"
+remove.center.tag("HUG Genève (SSR)")
+# "HUG Genève"
+
+## get center from mnppid
+mnppid2center(1509)
+# [1] Hospital
+# Levels: Hospital
+mnppid2center(1509, remove.ctag = 0)
+# [1] Hospital (BMD)
+# Levels: Hospital (BMD)
+
+## if pat.id is not present in tables it can be added
+load.tables(system.file("extdata", "s_export_CSV-xls_DEM00_20180912-125720.zip", package = "secuTrial"), add.pat.id = F)
+## original
+head(names(bmd), n=3)
+# "mnppid"      "mnpdocid"    "mnplastedit"
+## with pat.id column
+head(names(add.pat.id(bmd)), n=4)
+# "pat.id"      "mnppid"      "mnpdocid"    "mnplastedit"
+dim(bmd)
+# 501  24
+dim(add.pat.id(bmd))
+# 501  25
+
+## add center to tables
+## original
+head(names(bmd), n=3)
+# "mnppid"      "mnpdocid"    "mnplastedit"
+## with center column second
+head(names(add.center(bmd)), n=4)
+# "mnppid"      "center"      "mnpdocid"    "mnplastedit"
+dim(bmd)
+# 501  24
+dim(add.center(bmd))
+# 501  25
 
 
 

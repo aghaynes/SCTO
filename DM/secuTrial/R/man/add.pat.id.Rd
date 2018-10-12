@@ -2,21 +2,21 @@
 % Please edit documentation in R/transforming.R
 \name{add.pat.id}
 \alias{add.pat.id}
-\title{Add patient id.}
+\title{Add patient id}
 \usage{
 add.pat.id(tab, id = "pat.id")
 }
 \arguments{
-\item{tab}{table to add center}
+\item{tab}{table to which pat.id column should be added to}
 
-\item{id}{variable name (default: center)}
+\item{id}{column name (default: pat.id)}
 }
 \value{
-Table with center add after mnppid.
+Table with pat.id column at the front.
 }
 \description{
-This function adds the patient id \code{mnpaid}
-to the specified table.
+This function adds the patient id (i.e. \code{mnpaid})
+to the specified table. The column is added at the front.
 }
 \seealso{
 mnppid2mnpaid

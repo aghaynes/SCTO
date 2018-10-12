@@ -2,7 +2,7 @@
 % Please edit documentation in R/transforming.R
 \name{remove.center.tag}
 \alias{remove.center.tag}
-\title{Helper function to strip away center tag.}
+\title{Helper function to strip away trailing center tag in parentheses}
 \usage{
 remove.center.tag(x)
 }
@@ -13,7 +13,13 @@ remove.center.tag(x)
 cleaned center string
 }
 \description{
-Example: "Universitätsspital Basel (SWISS-AF)"
+Helper function to strip away trailing center tag in parentheses
+}
+\examples{
+remove.center.tag("Universitätsspital Basel (SWISS-AF)")
+# "Universitätsspital Basel"
+remove.center.tag("HUG Genève (SSR)")
+# "HUG Genève"
 }
 \seealso{
 mnppid2center

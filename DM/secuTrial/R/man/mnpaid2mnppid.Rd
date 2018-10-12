@@ -2,12 +2,12 @@
 % Please edit documentation in R/transforming.R
 \name{mnpaid2mnppid}
 \alias{mnpaid2mnppid}
-\title{Convert patient id to internal id.}
+\title{Convert patient id to internal id}
 \usage{
 mnpaid2mnppid(mnpaid)
 }
 \arguments{
-\item{mnpaid}{patient id}
+\item{mnpaid}{patient id (frontend)}
 }
 \value{
 internal id
@@ -15,6 +15,7 @@ internal id
 \description{
 This function converts the patient id \code{mnpaid}
 to the internal id (\code{mnppid}) used in most tables.
+It requires you to have a loaded secuTrial export in your active workspace.
 }
 \examples{
 \dontrun{
@@ -22,5 +23,5 @@ mnpaid2mnppid(10001) # 978
 }
 }
 \seealso{
-mnppid2mnpaid
+mnppid2mnpaid, load.tables
 }

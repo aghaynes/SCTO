@@ -2,14 +2,14 @@
 % Please edit documentation in R/transforming.R
 \name{add.center}
 \alias{add.center}
-\title{Add center.}
+\title{Add center}
 \usage{
 add.center(tab, id = "center")
 }
 \arguments{
-\item{tab}{table to add patient id}
+\item{tab}{table to which center column should be added to}
 
-\item{id}{patient id name (default: pat.id)}
+\item{id}{column name (default: center)}
 }
 \value{
 Table with additional center column.
@@ -20,5 +20,5 @@ The column is added after \code{pat.id} if present and after
 \code{mnppid} otherwise.
 }
 \seealso{
-mnppid2mnpaid
+mnppid2center
 }

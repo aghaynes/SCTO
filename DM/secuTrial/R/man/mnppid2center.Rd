@@ -2,16 +2,19 @@
 % Please edit documentation in R/transforming.R
 \name{mnppid2center}
 \alias{mnppid2center}
-\title{Convert center id to center.}
+\title{Convert center id to center}
 \usage{
-mnppid2center(mnppid)
+mnppid2center(mnppid, remove.ctag = 1)
 }
 \arguments{
 \item{mnppid}{internal id}
+
+\item{remove.ctag}{1 for yes (default) 0 for no}
 }
 \value{
 Center name as string.
 }
 \description{
 This function returns the center for a given internal id \code{mnppid}.
+It requires you to have a loaded secuTrial export in your active workspace.
 }

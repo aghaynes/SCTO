@@ -2,11 +2,14 @@
 % Please edit documentation in R/loading.R
 \name{load.tables}
 \alias{load.tables}
-\title{Load multiple tables from an export.}
+\title{Load multiple tables from an export and distinguish between rectangular and non-rectangular input.
+If is.rt is TRUE then only the decode.rt.visitlabels parameter is used.
+If is.rt is FALSE then all other parameters are interpreted.}
 \usage{
 load.tables(data.dir, tables = "all", convert.dates = FALSE,
   convert.unknown.date.to.na = FALSE, rename.headers = FALSE,
-  add.pat.id = TRUE, add.center = FALSE, silent = FALSE)
+  add.pat.id = TRUE, add.center = FALSE, silent = FALSE,
+  is.rt = FALSE, decode.rt.visitlabels = TRUE)
 }
 \arguments{
 \item{data.dir}{location of the export directory (or zip file) containing the csv/xls files}
@@ -24,12 +27,18 @@ load.tables(data.dir, tables = "all", convert.dates = FALSE,
 \item{add.center}{adding center information}
 
 \item{silent}{hide output}
+
+\item{is.rt}{specifies if export is in rectangular table format}
+
+\item{decode.rt.visitlabels}{specifies whether to decode the visit labels in the rectangular table}
 }
 \value{
 (Pre-processed) tables in \code{tables} as data frames
 }
 \description{
-Load multiple tables from an export.
+Load multiple tables from an export and distinguish between rectangular and non-rectangular input.
+If is.rt is TRUE then only the decode.rt.visitlabels parameter is used.
+If is.rt is FALSE then all other parameters are interpreted.
 }
 \references{
 http://stackoverflow.com/questions/3640925/global-variable-in-r-function

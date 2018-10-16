@@ -13,7 +13,7 @@ Basic recipes:
 - [Create user logins](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/create_user_logins)
 - [Create email notifications](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/create_email_notification)
 - [Upload catalog](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/upload_catalog)
-- Data Export - TODO
+- [Data export](https://github.com/PatrickRWright/SCTO/tree/master/DM/secuTrial/recipes/export_data)
 
 Advanced recipes:
 

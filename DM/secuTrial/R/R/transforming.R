@@ -43,6 +43,7 @@ mnpaid2mnppid <- function(mnpaid) {
 #' # "Universitätsspital Basel"
 #' remove.center.tag("HUG Genève (SSR)")
 #' # "HUG Genève"
+#' @export
 #' @param x center string
 #' @return cleaned center string
 #' @seealso mnppid2center
